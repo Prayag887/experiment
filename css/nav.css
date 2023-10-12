@@ -1,0 +1,42 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    padding-top: 10vh;
+    position: relative;
+}
+
+nav a{
+    position: relative;
+    margin: 0px 30px 0px;
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none!important;
+}
+
+nav a:hover{
+    color: rgb(161, 159, 159);
+}
+
+nav #marker{
+    position: absolute;
+    left: 0;
+    height: 4px;
+    width:0;
+    background: rgb(180, 94, 94);
+    bottom: -8px;
+    transition:0.5s;
+    border-radius: 4px;
+}
+
+
+@media (max-width: 767px){
+    nav a{
+        position: relative;
+        /* margin: 0px 5px 0px; */
+        font-size: 1.2em;
+        color: #fff;
+        text-decoration: none!important;
+    }
+}

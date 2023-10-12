@@ -1,0 +1,22 @@
+  .skills{
+    background-color:#ddd;
+    width:80%;
+    height:15px;
+    position:relative;
+    margin:120px;
+  }
+  .title-bar{
+    position:absolute;
+    top:-35px;
+    margin:5px
+  }
+  .skills span {
+    float:right;
+    margin-top:-30px;
+    margin-right:5px;
+  }
+  
+  .skillbar{
+    background-color:#ff3333;
+    height:15px;
+  }
